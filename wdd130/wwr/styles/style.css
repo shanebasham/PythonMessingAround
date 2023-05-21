@@ -10,11 +10,11 @@ nav a {
     text-decoration: none;
 }
 .logo {
-    width: auto;
+    width: 80px auto;
     float: left;
 }
 .icon {
-    width: 80px;
+    width: 80px auto;
 }
 #hero-img {
     width: 100%;
@@ -57,10 +57,11 @@ nav a:hover {
     color: white;
 }
 #background {
-    background-color: #26b1ce;
+    background-color: gray;
+    height: 725px;
 }
 .msg {
-    background-color: #26b1ce;
+    background-color: gray;
 }
 footer p a {
     background-color: #26b1ce;
@@ -71,4 +72,7 @@ footer p a:hover {
     font-size: 1.2em;
     text-decoration: underline;
     background-color: #59297d;
+}
+#content {
+    width: 1600px;
 }

@@ -1,0 +1,22 @@
+
+.title_image {
+    max-width: 100%;
+}
+body {
+    background-color: gray;
+}
+.row{
+    display: flex;
+    column-gap: 25px;
+    max-width: 100%;
+    }
+.img {
+    border: 10px solid rgb(70, 70, 70);
+    border-radius: 50%;
+    width: 33.33%;
+    width: 50%;
+    height: 75%;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
