@@ -8,7 +8,7 @@ nav a {
     text-align: center;
     color: white;
     text-decoration: none;
-    font-family: "Comic Neue", Helvetica, sans-serif;
+    font-family: "Lucida Console", "Courier New", monospace;
     padding: 5px;
 }
 .logo {
@@ -25,8 +25,14 @@ nav a {
 #hero-img {
     width: 100%;
 }
-#hero-msg h1, #hero-msg h4 {
+#hero-msg h1 {
+        text-align: center;
+        font-family: Garamond, Courier, monospace;
+        color: white;
+}
+#hero-msg h4 {
     text-align: center;
+    font-family: "Lucida Console", Courier, monospace;
     color: white;
 }
 .button-box {
@@ -40,7 +46,7 @@ main section {
 body {
     background-color: #26b1ce; 
     color: white;
-    font-family: "Comic Neue", Arial, sans-serif;
+    font-family: "Lucida Console", "Courier New", monospace;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -84,8 +90,8 @@ main section img {
 .msg h2 {
     background-color: gray;
     line-height: 1.5em;
-    font-family: "Comic Neue", Helvetica, sans-serif;
-    font-size: .8em;
+    font-family: Garamond, "Courier New", monospace;
+    font-size: 2.8em;
     padding: 35px;
     margin-top: 50px;
 }
@@ -111,7 +117,7 @@ footer .social img {
     width: 1600px;
 }
 .home-title {
-    font-family: "Unica One", Helvetica, sans-serif;
+    font-family: "Lucida Console", "Courier New", monospace;
     font-size: 2em;
     margin-top: 10px;
 }
