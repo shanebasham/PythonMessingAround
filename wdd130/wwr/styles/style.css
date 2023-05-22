@@ -4,17 +4,23 @@ div {
     margin: 0 auto;
 }
 nav a {
-    font-size: 3.8em;
+    font-size: 1em;
     text-align: center;
     color: white;
     text-decoration: none;
+    font-family: "Comic Neue", Helvetica, sans-serif;
+    padding: 5px;
 }
 .logo {
     width: 80px auto;
-    float: left;
+    border-radius: 50%;
+}
+#logo_link {
+    padding-top: 5px;
 }
 .icon {
     width: 80px auto;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -31,48 +37,84 @@ main section {
     text-align: center;
     color: white;
 }
-#background {
-    height: 725px;
-}
 body {
     background-color: #26b1ce; 
     color: white;
+    font-family: "Comic Neue", Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
-    background-color:#26b1ce;
+    background-color:gray;
     color: white;
 }
 nav a:hover {
-    font-size: 4.5em;
+    font-size: 1.2em;
     background-color: #59297d;
     color: white;
 }
 .book, .join {
-    background-color: #26b1ce;
+    background-color: #59297d;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.card-img {
+    border: 10px solid gray;
+}
+main section img {
+    box-sizing: border-box;
 }
 .book:hover, .join:hover {
-    background-color: #59297d;
+    background-color: #26b1ce;
     color: white;
 }
 #background {
     background-color: gray;
     height: 725px;
+    margin-bottom: 50px;
 }
-.msg {
+.msg h2 {
     background-color: gray;
+    line-height: 1.5em;
+    font-family: "Comic Neue", Helvetica, sans-serif;
+    font-size: .8em;
+    padding: 35px;
+    margin-top: 50px;
+}
+.msg p {
+    padding-bottom: 15px;
 }
 footer p a {
     background-color: #26b1ce;
     color: white;
     text-decoration: none;
+    padding: 5px 5px;
+    margin-top: 200px;
 }
 footer p a:hover {
     font-size: 1.2em;
     text-decoration: underline;
     background-color: #59297d;
 }
+footer .social img {
+    padding-top: 15px;
+}
 #content {
     width: 1600px;
+}
+.home-title {
+    font-family: "Unica One", Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
