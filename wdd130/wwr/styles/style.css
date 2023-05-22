@@ -12,14 +12,16 @@ nav a {
     padding: 5px;
 }
 .logo {
-    width: 80px auto;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
 }
 #logo_link {
     padding-top: 5px;
 }
 .icon {
-    width: 80px auto;
+    width: 80px;
+    height: 80px;
     padding-top: 10px;
 }
 #hero-img {
@@ -123,4 +125,7 @@ footer .social img {
 }
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
+}
+content {
+    width: 1600px;
 }
