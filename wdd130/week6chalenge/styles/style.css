@@ -1,0 +1,16 @@
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: gray;
+}
+h1 {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    color: black;
+    grid-column: 1/1;
+    grid-row: 1/1;
+    text-decoration: Bold;
+    font-family: "Times New Roman", "Courier New", monospace;
+}
