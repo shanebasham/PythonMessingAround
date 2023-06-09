@@ -1,5 +1,5 @@
 
-div {
+#content {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -98,6 +98,10 @@ nav a:hover {
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
@@ -130,7 +134,7 @@ main section img {
 .msg p {
     padding-bottom: 15px;
 }
-footer p a {
+footer {
     background-color: #26b1ce;
     color: white;
     text-decoration: none;
@@ -140,6 +144,9 @@ footer p a {
     justify-content: space-around;
     align-items: center;
 }
+footer {
+    text-decoration: none;
+}
 footer p a:hover {
     font-size: 1.2em;
     text-decoration: underline;
@@ -147,9 +154,6 @@ footer p a:hover {
 }
 footer .social img {
     padding-top: 15px;
-}
-#content {
-    width: 1600px;
 }
 .home-title {
     font-family: "Lucida Console", "Courier New", monospace;
@@ -168,7 +172,7 @@ footer .social img {
     grid-row: 2/3;
 }
 .rapids-card {
-    grid-column: 18/10;
+    grid-column: 8/10;
     grid-row: 2/3;
 }
 .mountains {
