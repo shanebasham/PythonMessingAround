@@ -1,15 +1,34 @@
 
 .grid_container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: gray;
+    grid-template-columns: 500px 500px;
 }
-h1 {
+.title_image {
+    z-index: 0;
+    width: 500px; 
+    height: 500px;
+    grid-column: 1/2;
+    grid-row: 1/1;
+    float: left;
+}
+.title1 {
+    width: 500px; 
+    height: 500px;
+    position: relative;
     z-index: 1;
+    text-align: center;
+    color: black;
+    grid-column: 1/2;
+    grid-row: 1/1;
+    text-decoration: Bold;
+    font-family: "Times New Roman", "Courier New", monospace;
+}
+.title2 {
+    background-color: gray;
     position: relative;
     text-align: center;
     color: black;
-    grid-column: 1/1;
+    grid-column: 2/2;
     grid-row: 1/1;
     text-decoration: Bold;
     font-family: "Times New Roman", "Courier New", monospace;
