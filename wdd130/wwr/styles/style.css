@@ -86,6 +86,7 @@ nav a:hover {
 }
 .book, .join {
     background-color: #59297d;
+    border: 1px solid white;
     color: white;
     text-decoration: none;
     font-size: 18px;
@@ -144,16 +145,14 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-footer {
-    text-decoration: none;
-}
 footer p a:hover {
     font-size: 1.2em;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: #59297d;
 }
 footer .social img {
     padding-top: 15px;
+    text-decoration: none;
 }
 .home-title {
     font-family: "Lucida Console", "Courier New", monospace;
@@ -207,7 +206,7 @@ content {
     #hero-msg {
         margin-top: 0;
     }
-    #hero-msg h4 {
+    #hero-msg h1 h4 {
         display: none;
     }
     .home-title {
@@ -230,3 +229,86 @@ content {
         margin-top: 25px;
     }
 }
+
+
+/* ### BLOG PAGE ### */
+
+
+.share {
+    background-color: #59297d;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.share:hover {
+    background-color: #26b1ce;
+}
+.blog-grid {
+    margin: 20px auto; 
+    display: grid;
+    background-color: gray;
+    border: 1px solid white; 
+    width: 90%;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%; 
+    margin: 20px auto; 
+    font-family: Arial, sans-serif; 
+    border: 1px solid white; 
+    z-index: 2;
+}
+.profile-img {
+    z-index: 2;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.text-box {
+    margin: 20px auto; 
+    width: 80%;
+    border: 1px solid white;
+    font-size: 1em;
+    background-color: gray;
+    line-height: 1.5em;
+    font-family: Garamond, "Courier New", monospace;
+    padding: 35px;
+    margin-top: 50px;
+    padding: 10px; 
+    clear: both; 
+    overflow: auto;
+}
+.text-img {
+    width: 100%;
+}
+.buttons {
+    display: flex;
+    max-width: 100%;
+}
+.button {
+    background-color: #59297d;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 50px;
+    width: 33.33%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+}
+.button:hover {
+    background-color: #26b1ce;
+}
+
+
+
