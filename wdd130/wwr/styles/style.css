@@ -154,6 +154,9 @@ footer .social img {
     padding-top: 15px;
     text-decoration: none;
 }
+a:-webkit-any-link {
+    text-decoration: none;
+}
 .home-title {
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 2em;
