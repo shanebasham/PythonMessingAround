@@ -9,6 +9,39 @@
 </head>
 <body>
     <header>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+        <div id="id01" class="modal">
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+            <img src="images/img_avatar.jpg" alt="Avatar" class="avatar">
+            </div>
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+        </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
+
         <a id="logo_link" href="index.html">
             <img class="logo" src="images/profileimage.jpg" alt="Logo image">
             <h1>Art With Shane</h1>
@@ -22,130 +55,162 @@
     </header>
     <main class="home-grid">
         <div class="image">
-            <img class="img" src="images/art24.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art24.jpg" alt="image for homepage">
             <h2>THY WILL BE DONE</h2>
             <h3>...<br><br>12/15/22 ACRYLIC 8X12</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art23.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art23.jpg" alt="image for homepage">
             <h2>THE GREAT PROTECTOR AND COMFORTER</h2>
             <h3>...<br><br>8/22/22 ACRYLIC 12X12</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art26.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art26.jpg" alt="image for homepage">
             <h2>BABI IM</h2>
             <h3>...<br><br>1/07/21 charcoal 8.5X6</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art27.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art27.jpg" alt="image for homepage">
             <h2>HEAR HIM</h2>
             <h3>...<br><br>9/09/20 SHARPIE 72X48</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art19.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art19.jpg" alt="image for homepage">
             <h2>DARE</h2>
             <h3>...<br><br>3/16/19 WATERCOLOR INK CRAYON 12X12</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art1.png" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art1.png" alt="image for homepage">
             <h2>ABSTRACT FOREST</h2>
             <h3>...<br><br>12/20/17 WATERCOLOR 8X12</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art5.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art5.jpg" alt="image for homepage">
             <h2>OUT OF THE DEEP</h2>
             <h3>...<br><br>6/11/18 WATERCOLOR PENCILS 12X8</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art6.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art6.jpg" alt="image for homepage">
             <h2>TOPOGRAPHY OF THE MIND</h2>
             <h3>...<br><br>8/5/18 WATERCOLOR PENCILS 8.5X12</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art7.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art7.jpg" alt="image for homepage">
             <h2>4D HEAD JAMB</h2>
             <h3>...<br><br>8/8/18 CONTE 12X8.5</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art4.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art4.jpg" alt="image for homepage">
             <h2>DESERT SUNSET</h2>
             <h3>...<br><br>8/18/18 WATERCOLOR 6X8.5</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art15.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art15.jpg" alt="image for homepage">
             <h2>ABSTRACT REFLECTIONS</h2>
             <h3>...<br><br>8/31/18 WATERCOLOR PEN 12X24</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art22.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art22.jpg" alt="image for homepage">
             <h2>CAMS EXPRESSION</h2>
             <h3>...<br><br>9/4/18 ACRYLIC 16X13</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art8.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art8.jpg" alt="image for homepage">
             <h2>STARRY DAY</h2>
             <h3>...<br><br>9/11/18 ACRYLIC 12X24</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art9.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art9.jpg" alt="image for homepage">
             <h2>RISE OF THE SEA GNOMES</h2>
             <h3>...<br><br>10/29/18 WATERCOLOR 9X24</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art20.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art20.jpg" alt="image for homepage">
             <h2>DIMENSIONAL STAIRCASE</h2>
             <h3>...<br><br>8/12/18 OIL PASTEL 12X8.5</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art10.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art10.jpg" alt="image for homepage">
             <h2>LIVING IN THE LANDSCAPE</h2>
             <h3>...<br><br>11/15/18 CHARCOAL 24X48</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art16.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art16.jpg" alt="image for homepage">
             <h2>TORN HEART</h2>
             <h3>...<br><br>10/21/18 PEN 6X8.5</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art11.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art11.jpg" alt="image for homepage">
             <h2>BIRTH OF A DESERT</h2>
             <h3>...<br><br>12/11/18 CHARCOAL COLORED PENCILS 12X18</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art12.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art12.jpg" alt="image for homepage">
             <h2>PICASSO IN 6TH</h2>
             <h3>...<br><br>12/15/18 ACRYLIC 8X12</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art13.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art13.jpg" alt="image for homepage">
             <h2>TENTACLE FOREST</h2>
             <h3>...<br><br>1/24/19 ACRYLIC 24X12</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art21.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art21.jpg" alt="image for homepage">
             <h2>UNDER THE EUROPA SEA</h2>
             <h3>...<br><br>1/16/19 WATERCOLOR INK 8X12</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art17.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art17.jpg" alt="image for homepage">
             <h2>ABSTRACT DESERT</h2>
             <h3>...<br><br>2/26/19 WATERCOLOR 8X12</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art14.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art14.jpg" alt="image for homepage">
             <h2>SLUMBERING REFLECTION</h2>
             <h3>...<br><br>3/6/19 ACRYLIC 8X12</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art18.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art18.jpg" alt="image for homepage">
             <h2>LOVING LIFE ON LO</h2>
             <h3>...<br><br>5/7/19 OIL PASTEL 24X12</h3>
         </div>
         <div class="image">
-            <img class="img" src="images/art25.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art25.jpg" alt="image for homepage">
             <h2>ABSTRACT BEACH</h2>
             <h3>...<br><br>6/24/19 WATERCOLOR 8X12</h3>
         </div>
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+        <script>
+            // create references to the modal...
+            var modal = document.getElementById('myModal');
+            // to all images -- note I'm using a class!
+            var images = document.getElementsByClassName('myImages');
+            // the image in the modal
+            var modalImg = document.getElementById("img01");
+            // and the caption in the modal
+            var captionText = document.getElementById("caption");
+
+            // Go through all of the images with our custom class
+            for (var i = 0; i < images.length; i++) {
+                var img = images[i];
+                // and attach our click listener for this image.
+                img.onclick = function(evt) {
+                    modal.style.display = "block";
+                    modalImg.src = this.src;
+                    captionText.innerHTML = this.alt;
+            }
+            }
+
+            var span = document.getElementsByClassName("close")[0];
+
+            span.onclick = function() {
+                modal.style.display = "none";
+            }
+        </script>
     </main>
     <footer>
         <p><a href="site-plan-rafting.html">Site Plan</a></p>
