@@ -211,7 +211,7 @@ h3:hover {
 
              /* MODAL */
   
-#myImg {
+.myImages {
 cursor: pointer;
 transition: 0.3s;
 z-index: 1;
@@ -223,7 +223,7 @@ height: auto;
 margin: auto;
 }
 
-#myImg:hover {
+.myImages:hover {
 opacity: 0.9;
 transform: scale(2.5);
 }
