@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+        <button class="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
         <div id="id01" class="modal">
         <form class="modal-content animate" action="/action_page.php" method="post">
             <div class="imgcontainer">
@@ -25,7 +25,7 @@
                     <input type="checkbox" checked="checked" name="remember"> Remember me
                 </label>
             </div>
-            <div class="container" style="background-color:#f1f1f1">
+            <div class="container">
                 <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
                 <span class="psw">Forgot <a href="#">password?</a></span>
             </div>
@@ -54,136 +54,156 @@
         </nav>
     </header>
     <main class="home-grid">
-        <div class="image">
-            <img class="myImages" id="myImg" src="images/art24.jpg" alt="image for homepage">
+        <div id="image">
+            <img class="myImages" id="myImg" src="images/art24.jpg" alt="THY WILL BE DONE">
             <h2>THY WILL BE DONE</h2>
-            <h3>...<br><br>12/15/22 ACRYLIC 8X12</h3>
+            <h3>...<br><br>12/15/22<br>ACRYLIC<br>8X12</h3>
+            <div class="shop">
+                <label><b>Select Your Size</b></label>
+                <div class="shop_sizes">
+                    <button class="size">8X12<br>$25</button>
+                    <button class="size">12X24<br>$35</button>
+                    <button class="size">24X48<br>$55</button>
+                </div>
+                <button class="size">ORIGINAL<br>$800</button>
+                <button type="submit">Purchase</button>
+            </div>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art23.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art23.jpg" alt="THE GREAT PROTECTOR AND COMFORTER">
             <h2>THE GREAT PROTECTOR AND COMFORTER</h2>
-            <h3>...<br><br>8/22/22 ACRYLIC 12X12</h3>
+            <h3>...<br><br>8/22/22<br>ACRYLIC<br>12X12</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art26.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art26.jpg" alt="BABI IM">
             <h2>BABI IM</h2>
-            <h3>...<br><br>1/07/21 charcoal 8.5X6</h3>
+            <h3>...<br><br>1/07/21<br>CHARCOAL<br>8.5X6</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art27.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art27.jpg" alt="HEAR HIM">
             <h2>HEAR HIM</h2>
-            <h3>...<br><br>9/09/20 SHARPIE 72X48</h3>
+            <h3>...<br><br>9/09/20<br>SHARPIE<br>72X48</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art19.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art19.jpg" alt="DARE">
             <h2>DARE</h2>
-            <h3>...<br><br>3/16/19 WATERCOLOR INK CRAYON 12X12</h3>
+            <h3>...<br><br>3/16/19<br>WATERCOLOR INK CRAYON<br>12X12</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art1.png" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art1.png" alt="ABSTRACT FOREST">
             <h2>ABSTRACT FOREST</h2>
-            <h3>...<br><br>12/20/17 WATERCOLOR 8X12</h3>
+            <h3>...<br><br>12/20/17<br>WATERCOLOR<br>8X12</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art5.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art5.jpg" alt="OUT OF THE DEEP">
             <h2>OUT OF THE DEEP</h2>
-            <h3>...<br><br>6/11/18 WATERCOLOR PENCILS 12X8</h3>
+            <h3>...<br><br>6/11/18<br>WATERCOLOR PENCILS<br>12X8</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art6.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art6.jpg" alt="TOPOGRAPHY OF THE MIND">
             <h2>TOPOGRAPHY OF THE MIND</h2>
-            <h3>...<br><br>8/5/18 WATERCOLOR PENCILS 8.5X12</h3>
+            <h3>...<br><br>8/5/18<br>WATERCOLOR PENCILS<br>8.5X12</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art7.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art7.jpg" alt="4D HEAD JAMB">
             <h2>4D HEAD JAMB</h2>
-            <h3>...<br><br>8/8/18 CONTE 12X8.5</h3>
+            <h3>...<br><br>8/8/18<br>CONTE<br>12X8.5</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art4.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art4.jpg" alt="DESERT SUNSET">
             <h2>DESERT SUNSET</h2>
-            <h3>...<br><br>8/18/18 WATERCOLOR 6X8.5</h3>
+            <h3>...<br><br>8/18/18<br>WATERCOLOR<br>6X8.5</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art15.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art15.jpg" alt="ABSTRACT REFLECTIONS">
             <h2>ABSTRACT REFLECTIONS</h2>
-            <h3>...<br><br>8/31/18 WATERCOLOR PEN 12X24</h3>
+            <h3>...<br><br>8/31/18<br>WATERCOLOR PEN<br>12X24</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art22.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art22.jpg" alt="CAMS EXPRESSION">
             <h2>CAMS EXPRESSION</h2>
-            <h3>...<br><br>9/4/18 ACRYLIC 16X13</h3>
+            <h3>...<br><br>9/4/18<br>ACRYLIC<br>16X13</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art8.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art8.jpg" alt="STARRY DAY">
             <h2>STARRY DAY</h2>
-            <h3>...<br><br>9/11/18 ACRYLIC 12X24</h3>
+            <h3>...<br><br>9/11/18<br>ACRYLIC<br>12X24</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art9.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art9.jpg" alt="RISE OF THE SEA GNOMES">
             <h2>RISE OF THE SEA GNOMES</h2>
-            <h3>...<br><br>10/29/18 WATERCOLOR 9X24</h3>
+            <h3>...<br><br>10/29/18<br>WATERCOLOR<br>9X24</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art20.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art20.jpg" alt="DIMENSIONAL STAIRCASE">
             <h2>DIMENSIONAL STAIRCASE</h2>
-            <h3>...<br><br>8/12/18 OIL PASTEL 12X8.5</h3>
+            <h3>...<br><br>8/12/18<br>OIL PASTEL<br>12X8.5</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art10.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art10.jpg" alt="LIVING IN THE LANDSCAPE">
             <h2>LIVING IN THE LANDSCAPE</h2>
-            <h3>...<br><br>11/15/18 CHARCOAL 24X48</h3>
+            <h3>...<br><br>11/15/18<br>CHARCOAL<br>24X48</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art16.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art16.jpg" alt="TORN HEART">
             <h2>TORN HEART</h2>
-            <h3>...<br><br>10/21/18 PEN 6X8.5</h3>
+            <h3>...<br><br>10/21/18<br>PEN<br>6X8.5</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art11.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art11.jpg" alt="BIRTH OF A DESERT">
             <h2>BIRTH OF A DESERT</h2>
-            <h3>...<br><br>12/11/18 CHARCOAL COLORED PENCILS 12X18</h3>
+            <h3>...<br><br>12/11/18<br>CHARCOAL COLORED PENCILS<br>12X18</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art12.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art12.jpg" alt="PICASSO IN 6TH">
             <h2>PICASSO IN 6TH</h2>
-            <h3>...<br><br>12/15/18 ACRYLIC 8X12</h3>
+            <h3>...<br><br>12/15/18<br>ACRYLIC<br>8X12</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art13.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art13.jpg" alt="TENTACLE FOREST">
             <h2>TENTACLE FOREST</h2>
-            <h3>...<br><br>1/24/19 ACRYLIC 24X12</h3>
+            <h3>...<br><br>1/24/19<br>ACRYLIC<br>24X12</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art21.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art21.jpg" alt="UNDER THE EUROPA SEA<">
             <h2>UNDER THE EUROPA SEA</h2>
-            <h3>...<br><br>1/16/19 WATERCOLOR INK 8X12</h3>
+            <h3>...<br><br>1/16/19<br>WATERCOLOR INK<br>8X12</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art17.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art17.jpg" alt="ABSTRACT DESERT">
             <h2>ABSTRACT DESERT</h2>
-            <h3>...<br><br>2/26/19 WATERCOLOR 8X12</h3>
+            <h3>...<br><br>2/26/19<br>WATERCOLOR<br>8X12</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art14.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art14.jpg" alt="SLUMBERING REFLECTION">
             <h2>SLUMBERING REFLECTION</h2>
-            <h3>...<br><br>3/6/19 ACRYLIC 8X12</h3>
+            <h3>...<br><br>3/6/19<br>ACRYLIC<br>8X12</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art18.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art18.jpg" alt="LOVING LIFE ON LO">
             <h2>LOVING LIFE ON LO</h2>
-            <h3>...<br><br>5/7/19 OIL PASTEL 24X12</h3>
+            <h3>...<br><br>5/7/19<br>OIL PASTEL<br>24X12</h3>
         </div>
         <div class="image">
-            <img class="myImages" id="myImg" src="images/art25.jpg" alt="image for homepage">
+            <img class="myImages" id="myImg" src="images/art25.jpg" alt="ABSTRACT BEACH">
             <h2>ABSTRACT BEACH</h2>
-            <h3>...<br><br>6/24/19 WATERCOLOR 8X12</h3>
+            <h3>...<br><br>6/24/19<br>WATERCOLOR<br>8X12</h3>
+            <div class="shop hidden">
+                <label><b>Select Your Size</b></label>
+                <div class="shop_sizes">
+                    <button class="size">8X12<br>$25</button>
+                    <button class="size">12X24<br>$35</button>
+                    <button class="size">24X48<br>$55</button>
+                </div>
+                <button class="size">ORIGINAL<br>$800</button>
+                <button type="submit">Purchase</button>
+            </div>
         </div>
         <div id="myModal" class="modal">
             <span class="close">&times;</span>
             <img class="modal-content" id="img01">
             <div id="caption"></div>
-        </div>
+            <div class="image"></div>
         <script>
             // create references to the modal...
             var modal = document.getElementById('myModal');
@@ -193,7 +213,9 @@
             var modalImg = document.getElementById("img01");
             // and the caption in the modal
             var captionText = document.getElementById("caption");
-
+            // and the shop in the modal
+            var shop = document.getElementById("shop");
+    
             // Go through all of the images with our custom class
             for (var i = 0; i < images.length; i++) {
                 var img = images[i];
@@ -202,14 +224,26 @@
                     modal.style.display = "block";
                     modalImg.src = this.src;
                     captionText.innerHTML = this.alt;
+                // open modal function
+                const openModal = function () {
+                shop.classList.remove("hidden");
+                };
             }
             }
 
             var span = document.getElementsByClassName("close")[0];
-
+    
             span.onclick = function() {
                 modal.style.display = "none";
             }
+
+            function showModal(myImages, img01, container) {
+                var modal = document.createElement('div');
+                modal.classList.add('modal');
+                modal.innerHTML = '<div class="modal-content"><img src="' + myImages + '" alt="' + img01 + '"><p>' + container + '</p></div>';
+                document.body.appendChild(modal);
+                modal.style.display = 'block';
+                }
         </script>
     </main>
     <footer>

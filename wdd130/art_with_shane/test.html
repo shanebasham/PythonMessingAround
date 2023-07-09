@@ -1,118 +1,99 @@
+
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header>
+        <button class="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+        <div id="id01" class="modal">
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+            <img src="images/img_avatar.jpg" alt="Avatar" class="avatar">
+            </div>
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <button type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+            <div class="container">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+        </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
 
-<html>
-    <style>
-        #myImg {
-        border-radius: 5px;
-        cursor: pointer;
-        transition: 0.3s;
-        }
-
-        #myImg:hover {
-        opacity: 0.7;
-        }
-
-        .modal {
-        display: none;
-        /* Hidden by default */
-        position: fixed;
-        /* Stay in place */
-        z-index: 1;
-        /* Sit on top */
-        padding-top: 100px;
-        /* Location of the box */
-        left: 0;
-        top: 0;
-        width: 100%;
-        /* Full width */
-        height: 100%;
-        /* Full height */
-        overflow: auto;
-        /* Enable scroll if needed */
-        background-color: rgb(0, 0, 0);
-        /* Fallback color */
-        background-color: rgba(0, 0, 0, 0.9);
-        /* Black w/ opacity */
-        }
-
-        .modal-content {
-        margin: auto;
-        display: block;
-        width: 80%;
-        max-width: 700px;
-        }
-
-        #caption {
-        margin: auto;
-        display: block;
-        width: 80%;
-        max-width: 700px;
-        text-align: center;
-        color: #ccc;
-        padding: 10px 0;
-        height: 150px;
-        }
-
-        .modal-content,
-        #caption {
-        animation-name: zoom;
-        animation-duration: 0.6s;
-        }
-
-        @keyframes zoom {
-        from {
-            transform: scale(0)
-        }
-        to {
-            transform: scale(1)
-        }
-        }
-
-        .close {
-        position: absolute;
-        top: 15px;
-        right: 35px;
-        color: #f1f1f1;
-        font-size: 40px;
-        font-weight: bold;
-        transition: 0.3s;
-        }
-
-        .close:hover,
-        .close:focus {
-        color: #bbb;
-        text-decoration: none;
-        cursor: pointer;
-        }
-
-        @media only screen and (max-width: 700px) {
-        .modal-content {
-            width: 100%;
-        }
-        }
-    </style>
-    <body>
-        <div class="myImage">
-            <img class="myImages" id="myImg" src="images/art24.jpg" alt="image for homepage">
+        <a id="logo_link" href="index.html">
+            <img class="logo" src="images/profileimage.jpg" alt="Logo image">
+            <h1>Art With Shane</h1>
+        </a>
+        <nav>
+            <a href="index.html">Portfolio</a>
+            <a href="shop.html">Shop</a>
+            <a href="aboutme.html">About Me</a>
+            <a href="contactme.html">Contact Me</a>
+        </nav>
+    </header>
+    <main class="home-grid">
+        <div id="image">
+            <img class="myImages" id="myImg" src="images/art24.jpg" alt="THY WILL BE DONE">
             <h2>THY WILL BE DONE</h2>
-            <h3>...<br><br>12/15/22 ACRYLIC 8X12</h3>
+            <h3>...<br><br>12/15/22<br>ACRYLIC<br>8X12</h3>
+            <div class="shop">
+                <label><b>Select Your Size</b></label>
+                <div class="shop_sizes">
+                    <button class="size">8X12<br>$25</button>
+                    <button class="size">12X24<br>$35</button>
+                    <button class="size">24X48<br>$55</button>
+                </div>
+                <button class="size">ORIGINAL<br>$800</button>
+                <button type="submit">Purchase</button>
+            </div>
         </div>
-        <div class="myImage">
-            <img class="myImages" id="myImg" src="images/art23.jpg" alt="image for homepage">
-            <h2>THE GREAT PROTECTOR AND COMFORTER</h2>
-            <h3>...<br><br>8/22/22 ACRYLIC 12X12</h3>
+        <div class="image">
+            <img class="myImages" id="myImg" src="images/art18.jpg" alt="LOVING LIFE ON LO">
+            <h2>LOVING LIFE ON LO</h2>
+            <h3>...<br><br>5/7/19<br>OIL PASTEL<br>24X12</h3>
         </div>
-        <div class="myImage">
-            <img class="myImages" id="myImg" src="images/art26.jpg" alt="image for homepage">
-            <h2>BABI IM</h2>
-            <h3>...<br><br>1/07/21 charcoal 8.5X6</h3>
+        <div class="image">
+            <img class="myImages" id="myImg" src="images/art25.jpg" alt="ABSTRACT BEACH">
+            <h2>ABSTRACT BEACH</h2>
+            <h3>...<br><br>6/24/19<br>WATERCOLOR<br>8X12</h3>
+            <div class="shop hidden" onclick="this.style.display='none'">
+                <label><b>Select Your Size</b></label>
+                <div class="shop_sizes">
+                    <button class="size">8X12<br>$25</button>
+                    <button class="size">12X24<br>$35</button>
+                    <button class="size">24X48<br>$55</button>
+                </div>
+                <button class="size">ORIGINAL<br>$800</button>
+                <button type="submit">Purchase</button>
+            </div>
         </div>
         <div id="myModal" class="modal">
-          <span class="close">&times;</span>
-          <img class="modal-content" id="img01">
-          <div id="caption"></div>
-        </div>
-
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+            <div class="image"></div>
         <script>
             // create references to the modal...
             var modal = document.getElementById('myModal');
@@ -122,7 +103,9 @@
             var modalImg = document.getElementById("img01");
             // and the caption in the modal
             var captionText = document.getElementById("caption");
-
+            // and the shop in the modal
+            var shop = document.getElementById("shop");
+    
             // Go through all of the images with our custom class
             for (var i = 0; i < images.length; i++) {
                 var img = images[i];
@@ -131,150 +114,40 @@
                     modal.style.display = "block";
                     modalImg.src = this.src;
                     captionText.innerHTML = this.alt;
+                // open modal function
+                const openModal = function () {
+                shop.classList.remove("hidden");
+                };
             }
             }
 
             var span = document.getElementsByClassName("close")[0];
-
+    
             span.onclick = function() {
                 modal.style.display = "none";
             }
+
+            function showModal(myImages, img01, container) {
+                var modal = document.createElement('div');
+                modal.classList.add('modal');
+                modal.innerHTML = '<div class="modal-content"><img src="' + myImages + '" alt="' + img01 + '"><p>' + container + '</p></div>';
+                document.body.appendChild(modal);
+                modal.style.display = 'block';
+                }
         </script>
-    </body>
+    </main>
+    <footer>
+        <p><a href="site-plan-rafting.html">Site Plan</a></p>
+        <p>Art With Shane &copy; 2023 - Shane Basham</p>
+        <div class="social">
+            <a href="https://www.facebook.com/art.with.shane" target="_blank">
+                <img src="images/facebook.png" alt="fb icon">
+            </a>
+            <a href="https://www.instagram.com/art_with_shane/" target="_blank">
+                <img src="images/instagram.png" alt="instagram icon">
+            </a>
+        </div>
+    </footer>
+</body>
 
 </html>
-
-<!-- <!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-
-#myImg {
-  border-radius: 5px;
-  cursor: pointer;
-  transition: 0.3s;
-}
-
-#myImg:hover {opacity: 0.7;}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-}
-
-/* Modal Content (image) */
-.modal-content {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-}
-
-/* Caption of Modal Image */
-#caption {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 700px;
-  text-align: center;
-  color: #ccc;
-  padding: 10px 0;
-  height: 150px;
-}
-
-/* Add Animation */
-.modal-content, #caption {  
-  -webkit-animation-name: zoom;
-  -webkit-animation-duration: 0.6s;
-  animation-name: zoom;
-  animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-  from {-webkit-transform:scale(0)} 
-  to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-  from {transform:scale(0)} 
-  to {transform:scale(1)}
-}
-
-/* The Close Button */
-.close {
-  position: absolute;
-  top: 15px;
-  right: 35px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
-
-.close:hover,
-.close:focus {
-  color: #bbb;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-  .modal-content {
-    width: 100%;
-  }
-}
-</style>
-</head>
-<body>
-
-<h2>Image Modal</h2>
-<p>In this example, we use CSS to create a modal (dialog box) that is hidden by default.</p>
-<p>We use JavaScript to trigger the modal and to display the current image inside the modal when it is clicked on. Also note that we use the value from the image's "alt" attribute as an image caption text inside the modal.</p>
-
-<div class="myImages>
-    <img id="myImg" src="images/art24.jpg" alt="image for homepage">
-    <h2>THY WILL BE DONE</h2>
-    <h3>...<br><br>12/15/22 ACRYLIC 8X12</h3>
-</div>
-<-- The Modal -->
-<!-- <div id="myModal" class="modal">
-  <span class="close">&times;</span>
-  <img class="modal-content" id="img01">
-  <div id="caption"></div>
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() { 
-  modal.style.display = "none";
-}
-</script>
-
-</body>
-</html> -->
