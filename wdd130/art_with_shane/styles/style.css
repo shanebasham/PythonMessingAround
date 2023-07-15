@@ -31,6 +31,7 @@ input[type=text], input[type=password] {
     padding: 2px 20px;
     cursor: pointer;
     width: 100%;
+    font-family: "Comic Neue", Helvetica, sans-serif;
   }
   button:focus {
     color:aqua;
@@ -42,6 +43,7 @@ input[type=text], input[type=password] {
   .shop_sizes {
     display: flex;
     text-align: center;
+    font-family: "Comic Neue", Helvetica, sans-serif;
   }
   button.size {
     padding: 0px;
@@ -77,6 +79,7 @@ input[type=text], input[type=password] {
   }
   /* The Modal (background) */
   .modal {
+    font-family: "Comic Neue", Helvetica, sans-serif;
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
@@ -92,6 +95,7 @@ input[type=text], input[type=password] {
   }
   /* Modal Content/Box */
   .modal-content {
+    font-family: "Comic Neue", Helvetica, sans-serif;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid white;
     width: 80%; /* Could be more or less, depending on screen size */
@@ -122,45 +126,46 @@ input[type=text], input[type=password] {
 
 
 .logo {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    float: left;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  float: left;
 }
 #logo_link {
-    justify-self: center;
-    align-self: center;
+  justify-self: center;
+  align-self: center;
 }
 header a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
+  font-family: "Lucida Console", "Courier New", monospace;
+  display: inline-block;
+  text-decoration: none;
+  color: white;
 }
 h1 {
-    float: right;
-    padding-left: 25px;
+  float: right;
+  padding-left: 25px;
 }
 header {
-    padding-top: 15px;
-    color: white;
-    background-color: black;
-    text-decoration: none;
-    text-align: center;
-    border: 4px solid white;
+  padding-top: 15px;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+  text-align: center;
+  border: 4px solid white;
 }
 nav {
-    border-top: 4px solid white;
+  border-top: 4px solid white;
 }
 nav a {
-    color: white;
-    text-decoration: none;
-    display: inline-block;
-    text-align: center;
-    margin: 15px 50px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  margin: 15px 50px;
 }
 nav a:hover{
-    color: aqua;
-    text-decoration: none;
+  color: aqua;
+  text-decoration: none;
 }
 
 .bar-container {
@@ -246,6 +251,7 @@ h4{
   margin: 25px;
 }
 .aboutme {
+  font-family: "Comic Neue", Helvetica, sans-serif;
   max-height: 100%;
   color: white;
   background-color: black;
@@ -302,7 +308,7 @@ h4{
     margin: auto;
 }
 .img:hover {
-    opacity: 7.5;
+    opacity: 1;
     transform: scale(2.5);
 }
 h2 {
@@ -473,6 +479,7 @@ textarea {
 }
 
 footer {
+    font-family: "Comic Neue", Helvetica, sans-serif;
     background-color: black;
     color: white;
     text-decoration: none;
