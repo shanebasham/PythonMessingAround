@@ -5,47 +5,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>About Shane</title>
+    <link rel="icon" href="images/icon.jpg">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
     <header>
+        <button class="login" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+        <div id="id01" class="modal">
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+            <img src="images/img_avatar.jpg" alt="Avatar" class="avatar">
+            </div>
+            <div class="container">
+                <label><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+                <label><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+                <button id="login" type="button">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+            <div class="container">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                <span class="psw">Forgot <a href="#">password?</a></span>
+            </div>
+        </form>
+        </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
         <a id="logo_link" href="index.html">
             <img class="logo" src="images/profileimage.jpg" alt="Logo image">
             <h1>Art With Shane</h1>
         </a>
         <nav>
-            <a href="index.html">Portfolio</a>
-            <a href="shop.html">Shop</a>
-            <a href="aboutme.html">About Me</a>
-            <a href="contactme.html">Contact Me</a>
+            <div class="bar-container" onclick="myFunction(this)">
+                <div class="bars"></div>
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Portfolio</a>
+                    <a href="shop.html">Shop</a>
+                    <a href="aboutme.html">About Me</a>
+                    <a href="contactme.html">Contact Me</a>
+                </div>
+            </div>
+        <script>
+            function myFunction(x) {
+                x.classList.toggle("change");
+                document.getElementById('myDropdown').style.display = document.getElementById('myDropdown').style.display =='block' ?   'none' : 'block';
+            }
+        </script>
         </nav>
     </header>
-    <main class="home-grid">
-        <img class="profile_image" src="images/profile.jpg" alt="profile image">
-        <p>
-            ABOUT ME
-            Hey everyone! My name is Shane Basham, I am 21 years old, and I was born and raised in Tucson, Arizona. 
-            I love learning new languages, making art, running, cooking, listening to music, playing the piano, and playing games!
-            Ive been making art since I was 5 years old and have taken art classes every year since.
-            On this art portfolio I will display multiple artworks I have created with a title, description, and/or story by the pictures.
-            I hope you enjoy and find some inspiration from my art, and I hope you find some that you really like and would love to have in your home!
-            Check out my social media pages to see all of my art posted in order of creation! 
-            Thank you for checking out my website!
-    
-            Contact me here if you have any questions or have any special requests!
-          </p>
-          <a href="contactme.html">Contact Me</a>
+    <main class="about-me-home-grid">
+        <img class="profile-image" src="images/profile.jpg" alt="profile image">
+        <div class="aboutme">
+            <h4>
+                Meet the Artist!
+            </h4>
+            <span>Hey everyone! My name is Shane Basham, I am 21 years old, and I was born and raised in Tucson, Arizona. 
+                I love learning new languages, running, cooking, listening to music, playing the piano, and especially making art!
+                Ive been taking art classes since I was 5 years old and have drawn, painted, sculpted, and built my own creations every year since.
+                On this art portfolio there are some of my best artworks displayed that I have created the last few years with a title and short description under the pictures.
+                I hope you enjoy and find some inspiration from my art! If you find an artwork that you really like and would love to have in your home,
+                check out my shop</span>
+            <a href="shop.html" class="p-link">
+                <span><i><em>HERE</em></i></span>
+            </a> 
+            <span>for purchacing details! You can also check out my social media pages on</span>
+            <span>
+                <a href="shop.html" class="p-link">
+                    <span><i><em>FACEBOOK</em></i></span>
+                </a> 
+            </span> 
+            <span> and</span>
+            <span>
+                <a href="shop.html" class="p-link">
+                    <span><i><em>INSTAGRAM</em></i></span>
+                </a> 
+            </span>
+            <span> to see all of my art posted in order of creation! 
+                Thank you for visiting my website!</span>
+            <p>
+                Contact me here if you have any questions or special requests!
+            </p>
+            <div class="contactmebtn">
+                <a href="contactme.html">
+                    <div class="waviy">
+                        <span style="--i:1">C</span>
+                        <span style="--i:2">O</span>
+                        <span style="--i:3">N</span>
+                        <span style="--i:4">T</span>
+                        <span style="--i:5">A</span>
+                        <span style="--i:6">C</span>
+                        <span style="--i:7">T </span>
+                        <span style="--i:8">  </span>
+                        <span style="--i:9"> M</span>
+                        <span style="--i:10">E</span>
+                        <span style="--i:11">!</span>
+                    </div>
+                </a>
+            </div>
+        </div>
     </main>
     <footer>
         <p><a href="site-plan-rafting.html">Site Plan</a></p>
         <p>Art With Shane &copy; 2023 - Shane Basham</p>
         <div class="social">
             <a href="https://www.facebook.com/art.with.shane" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
+                <img class="fb-logo" src="images/fblogo.png" alt="fb icon" 
+                width="50" 
+                height="50">
             </a>
             <a href="https://www.instagram.com/art_with_shane/" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
+                <img class="insta-logo" src="images/instalogo.png" alt="instagram icon" 
+                width="50" 
+                height="50">
             </a>
         </div>
     </footer>

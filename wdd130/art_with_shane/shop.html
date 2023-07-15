@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title> Shane's Shop</title>
+    <link rel="icon" href="images/icon.jpg">
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -47,13 +48,29 @@
             <h1>Art With Shane</h1>
         </a>
         <nav>
-            <a href="index.html">Portfolio</a>
-            <a href="shop.html">Shop</a>
-            <a href="aboutme.html">About Me</a>
-            <a href="contactme.html">Contact Me</a>
+            <div class="bar-container" onclick="myFunction(this)">
+                <div class="bars"></div>
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="index.html">Portfolio</a>
+                        <a href="shop.html">Shop</a>
+                        <a href="aboutme.html">About Me</a>
+                        <a href="contactme.html">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        <script>
+            function myFunction(x) {
+                x.classList.toggle("change");
+                document.getElementById('myDropdown').style.display = document.getElementById('myDropdown').style.display =='block' ?   'none' : 'block';
+            }
+        </script>
         </nav>
     </header>
-    <main class="home-grid">
+    <main class="shop-home-grid">
         <div id="image">
             <img class="myImages" src="images/art24.jpg" alt="THY WILL BE DONE">
             <h2>THY WILL BE DONE</h2>
@@ -496,9 +513,7 @@
                 captionText.innerHTML = this.alt;
         }
         }
-
         var span = document.getElementsByClassName("close")[0];
-
         span.onclick = function() {
             modal.style.display = "none";
         }
@@ -508,10 +523,14 @@
         <p>Art With Shane &copy; 2023 - Shane Basham</p>
         <div class="social">
             <a href="https://www.facebook.com/art.with.shane" target="_blank">
-                <img src="images/facebook.png" alt="fb icon">
+                <img class="fb-logo" src="images/fblogo.png" alt="fb icon" 
+                width="50" 
+                height="50">
             </a>
             <a href="https://www.instagram.com/art_with_shane/" target="_blank">
-                <img src="images/instagram.png" alt="instagram icon">
+                <img class="insta-logo" src="images/instalogo.png" alt="instagram icon" 
+                width="50" 
+                height="50">
             </a>
         </div>
     </footer>

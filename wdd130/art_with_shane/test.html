@@ -47,11 +47,27 @@
             <h1>Art With Shane</h1>
         </a>
         <nav>
-            <a href="index.html">Portfolio</a>
-            <a href="shop.html">Shop</a>
-            <a href="aboutme.html">About Me</a>
-            <a href="contactme.html">Contact Me</a>
+            <div class="container" onclick="myFunction(this)">
+                <div class="bars">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="index.html">Portfolio</a>
+                        <a href="shop.html">Shop</a>
+                        <a href="aboutme.html">About Me</a>
+                        <a href="contactme.html">Contact Me</a>
+                    </div>
+                </div>
+            </div>
         </nav>
+        <script>
+            function myFunction(x) {
+                x.classList.toggle("change");
+                document.getElementById('myDropdown').style.display = document.getElementById('myDropdown').style.display =='block' ?   'hide' : 'block';
+            }
+        </script>
     </header>
     <main class="home-grid">
         <div id="image">
