@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
 html {
   scroll-behavior: smooth;
@@ -264,7 +265,7 @@ h4{
 .p-link:hover {
   color: aqua;
 }
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
 .waviy {
   position: relative;
   -webkit-box-reflect: below -50px linear-gradient(transparent, rgba(0,0,0,.5));
