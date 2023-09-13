@@ -1,0 +1,15 @@
+Please respond thoroughly (at least two sentences for each question) to
+the following three questions.
+
+1. Describe an experience you had this semester where you saw the power of
+functions.
+The first time we worked with passing arguments through functions, I learned the power of functions. I didnt realize before how useful it would be to create a function that you could use multiple times.
+
+
+2. In your judgment, what is the value of test functions?
+Test functions can be very valuable if you are looking for a specific result. Frmo what I have learned, test functions are not very useful when testing main functions, but if there is an error in smaller functions then you can use test functions to narrow down the problems.
+
+
+3. Describe your process for troubleshooting and fixing a program that
+has a problem. What is one thing you can do to improve your process?
+The fist thing I do when I find a problem in my code is I read what and where the problem is in the terminal and I go to that line and try to fix it. If I dont understand the problem then I go to the internet and spend a couple hours reading through other people problems that are similar but not exacly the same as my problem. Then I finally find something that helps and I fix the simple mistake I had in my code.
