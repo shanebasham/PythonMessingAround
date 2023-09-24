@@ -18,15 +18,19 @@ const imageElement = document.getElementById('image');
 /* Step 4 - Adding Content */
 
 nameElement.innerHTML = '<strong>Shane Basham</strong>';
-element.textContent = currentYear;
+let text = currentYear.textContent;
 imageElement.setAttribute('src', profilePicture);
 imageElement.setAttribute('alt', `Profile image of ${fullName}`);
 
 /* Step 5 - Array */
 
-let food = ['Cherries', 'Cherry Pie', 'Cherry Cheese Cake', 'Cherry Ice Cream']
-
-foodElement.innerHTML += `<br>${favFoods}`;
-
+let food = ['Cherries', 'Cherry Pie', 'Cherry Cheese Cake', 'Cherry Ice Cream'];
+foodElement.innerHTML = food;
+food.push('Cherry Bread');
+foodElement.innerHTML += `<br>${food}`;
+food.shift();
+foodElement.innerHTML += `<br>${food}`;
+food.pop();
+foodElement.innerHTML += `<br>${food}`;
 
 
