@@ -13,7 +13,7 @@ let profilePicture = 'images/me.jpg';
 const nameElement = document.getElementById('name');
 const foodElement = document.getElementById('food');
 const yearElement = document.getElementById('#year');
-const imageElement = document.getElementById('image');
+const imageElement = document.querySelector('img');
 
 /* Step 4 - Adding Content */
 
