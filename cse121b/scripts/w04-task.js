@@ -15,11 +15,11 @@ let myProfile = {
 
 myProfile.placesLived.push(
     {
-      place: 'Tucson Arizona',
+      place: 'Tucson, Arizona',
       length: '20 years'
     },
     {
-      place: 'Springville Utah',
+      place: 'Springville, Utah',
       length: '1 year'
     }
   );
@@ -30,8 +30,8 @@ myProfile.placesLived.push(
 document.querySelector('#name').textContent = myProfile.name;
 
 /* Photo with attributes */
-document.getElementById('#photo').src = photo;
-document.getElementById('#photo').alt = name;
+document.getElementById('photo').src = 'images/me.jpg';
+document.getElementById('photo').alt = 'photo';
 
 /* Favorite Foods List*/
 myProfile.favoriteFoods.forEach(food => {
@@ -48,14 +48,11 @@ myProfile.hobbies.forEach(hobby => {
   });
 
 /* Places Lived DataList */
-myProfile.placesLived.forEach(place => {
+myProfile.placesLived.forEach(object => {
     let dt = document.createElement('dt');
-    dt.textContent = place;
-    document.querySelector('#place').appendChild(dt);
-  });
-myProfile.placesLived.forEach(length => {
+    dt.innerHTML = object.place;
     let dd = document.createElement('dd');
-    dd.textContent = length;
-    document.querySelector('#length').appendChild(dd);
+    dd.textContent = object.length;
+    document.querySelector('#places-lived').append(dt, dd);
   });
 
