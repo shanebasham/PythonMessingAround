@@ -64,7 +64,7 @@ def madlib2():
     print('Please fill in the following:\n')
     place = input('Place: ')
     noise = input('Noise: ')
-    hight = input('Height: ')
+    height = input('Height: ')
     color = input('Color: ')
     adj = input('Adjective: ')
     body = input('Body part: ')
@@ -89,7 +89,7 @@ def madlib2():
     print('\nYour story is:\n')
     print('Camping With a Monster')
     print(f'\nOne night I was camping in {place.capitalize()} when all of a sudden I heard a loud "{noise.upper()}!"\n\
-    I turned around and saw a {hight.lower()} monster! It had {color.lower()} hair, {adj.lower()} skin, and {a}\n\
+    I turned around and saw a {height.lower()} monster! It had {color.lower()} hair, {adj.lower()} skin, and {a}\n\
     big, huge, {body.lower()}. It tried to {verb.lower()} me, but I dodged it and hid behind {noun.lower()}.\n\
     I threw {noun1.lower()} at its {body1.lower()} and ran away. When I loked back I saw it was dead!\n\
     So, I went to {place1.lower()} where I knew everything would be {adj1.lower()}.')
@@ -196,6 +196,6 @@ def madlib5():
     # exclamation = input('Exclamation: ')
 
 
-madlibs = [madlib1, madlib2, madlib3]
+madlibs = [madlib1, madlib2, madlib3, madlib4, madlib5]
 randmadlib = random.choice(madlibs)
 print(randmadlib())
