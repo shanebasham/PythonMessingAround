@@ -7,10 +7,12 @@ let recipeList = [];
 const displayRecipes = (recipes) => {
     recipes.forEach((recipe) => { 
         let article = document.createElement('article');
-        let recipeName = document.createElement('h3');
+        let recipeName = document.createElement('h2');
+        let ingredients = document.createElement('h3');
+        let instructions = document.createElement('h3');
         recipeName.textContent = recipe.recipeName;
-        ingredients.textContent = recipe.ingredients
-        instructions.textContent = recipe.instructions
+        ingredients.textContent = recipe.ingredients;
+        instructions.textContent = recipe.instructions;
         article.appendChild(recipeName);
         article.appendChild(ingredients);
         article.appendChild(instructions);
@@ -24,10 +26,10 @@ const getRecipes = async () => {
     displayRecipes(recipeList);
 };
 
-/* reset Function */
-const reset = () => {
-    recipesElement.innerHTML = '';
-};
+// /* reset Function */
+// const reset = () => {
+//     recipesElement.innerHTML = '';
+// };
 
 // /* sortBy Function */
 // const sortBy = (recipes) => {
