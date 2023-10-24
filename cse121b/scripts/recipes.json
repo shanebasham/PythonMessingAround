@@ -1,104 +1,42 @@
 [
     {
-    "recipeName": "Snickerdoodles "
-    "ingredients": "3/4 C. sugar
-    1/2 C. butter
-    1 egg
-    1/2 tsp. vanilla
-    1 1/2 C. flour
-    1/4 tsp. salt
-    4 tsp. baking soda
-    1/4 tsp. cream of tarter
-    2 TBSP sugar
-    2 tsp. cinnamon"
+    "recipeName": "Snickerdoodles",
+    "ingredients": "3/4 C. sugar, 1/2 C. butter, 1 egg, 1/2 tsp. vanilla, 1 1/2 C. flour,m1/4 tsp. salt, 4 tsp. baking soda,m1/4 tsp. cream of tarter, 2 TBSP sugar, 2 tsp. cinnamon",
     "instructions": "In a large bowl mix cream sugar and butter, add eggs and vanilla. In a small bowl add flour, salt, baking soda and cream of tarter. Add to the butter mixture and mix well. In a small dish mix sugar and cinnamon together. Make small balls and roll into cinnamon/sugar mixture. Place on baking sheet. Bake 375 for 8 min."
     },
     {
-    "recipeName": "Baked Chicken and Rice"
-    "ingredients": "3/4 cup Parmesan cheese w/Romano
-    2 can cream mushroom soup
-    1 can cream chicken soup
-    1 TBSP garlic
-    1 TBSP onion flake or 1 onion
-    1/2 tsp Parsley
-    1/2 Cooked Rice"
+    "recipeName": "Baked Chicken and Rice",
+    "ingredients": "3/4 cup Parmesan cheese w/Romano, 2 can cream mushroom soup, 1 can cream chicken soup, 1 TBSP garlic, 1 TBSP onion flake or 1 onion, 1/2 tsp Parsley, 1/2 Cooked Rice",
     "instructions": "Mix all sauce ingredients in seperate bowl. Place half cooked rice on bottom of baking dish for desired thickness. Place uncooked chicken on top. Pour over sauce. Bake 350 for 1 hour."
     },
     {
-    "recipeName": "Ham and Swiss Sliders"
-    "ingredients": "2 lbs Ham from Deli thin sliced
-    2 lbs Boar's Head Baby Swiss cheese sandwich sliced
-    2 pkg Sweet Hawaiian Rolls
-    3/4 C. butter
-    1 1/2 TBSP Dijon Mustard
-    1 1/2 tsp Worcestershire Sauce
-    1 1/2 TBSP Poppy Seeds
-    1 TBSP minced onion"
+    "recipeName": "Ham and Swiss Sliders",
+    "ingredients": "2 lbs Ham from Deli thin sliced, 2 lbs Boar's Head Baby Swiss cheese sandwich sliced, 2 pkg Sweet Hawaiian Rolls, 3/4 C. butter, 1 1/2 TBSP Dijon Mustard, 1 1/2 tsp Worcestershire Sauce, 1 1/2 TBSP Poppy Seeds, 1 TBSP minced onion",
     "instructions": "Mix toppings. Slice rolls in half and place in cake pan. Take top of rolls off. Add ham and cheese. Place top of rolls back on top. Cut each roll to be easily separated after baking. Spread topping over rolls. Bake 350 for 20 min."
     },
     {
-    "recipeName": "Cold Ham Pasta Salad"
-    "ingredients": "1 box Organic Whole Wheat Pasta
-    2 cucumbers
-    3 red bell peppers
-    2 large shallots
-    3 tomatoes
-    1 cooked ham steak (3+ cups diced ham optional)
-    1/2 cup pitted Kalmata Olives
-    1/2 cup fresh lemon juice
-    1/2 cup Trader Joes Tuscan Italian Dressing (optional)"
+    "recipeName": "Cold Ham Pasta Salad",
+    "ingredients": "1 box Organic Whole Wheat Pasta, 2 cucumbers, 3 red bell peppers, 2 large shallots, 3 tomatoes, 1 cooked ham steak (3+ cups diced ham optional), 1/2 cup pitted Kalmata Olives, 1/2 cup fresh lemon juice, 1/2 cup Trader Joes Tuscan Italian Dressing (optional)",
     "instructions": "Cook and cool pasta. Dice and mix all ingredients in lage bowl."
     },
     {
-    "recipeName": "White Chili"
-    "ingredients": "2 lb ground turkey/chicken diced
-    2 yellow onions
-    5 garlic cloves
-    1 tsp salt
-    6 cans of white beans (2 great northern, 2 white kidney, 2 navy)
-    2 cups chicken broth
-    3 small cans green chilies
-    3 tsp cumin and oregano
-    1 tsp pepper.
-    2 cups heavy cream 
-    2 cups sour cream"
+    "recipeName": "White Chili",
+    "ingredients": "2 lb ground turkey/chicken diced, 2 yellow onions, 5 garlic cloves, 1 tsp salt, 6 cans of white beans (2 great northern, 2 white kidney, 2 navy), 2 cups chicken broth, 3 small cans green chilies, 3 tsp cumin and oregano, 1 tsp pepper, 2 cups heavy cream, 2 cups sour cream",
     "instructions": "Cook the meat with the onions, cloves and salt. Add the rest of the ingredients except the creams, heat thoroughly. Add the creams. Mix it all up and serve. Can be cooked in crock pot on low.  Add cooked turkey and everything but the cream and sour cream. Add that when ready to serve."
     },
     {
-    "recipeName": "Easy Spanish Rice"
-    "ingredients": "2 cups uncooked rice -brown/white
-    1 chopped onion
-    4 TBSP olive oil
-    5 cups water
-    2 cloves garlic
-    1 8oz can tomato sauce (or small can of tomato paste)
-    1 chopped green bell pepper (or 1/2 cup freeze fried bell pepper mix)
-    1 chopped red bell pepper
-    1 1/2 tsp salt
-    1 lb. ground beef COOKED
-    1 cup shredded cheddar cheese (of course this is a Basham recipe ;P)"
+    "recipeName": "Easy Spanish Rice",
+    "ingredients": "2 cups uncooked rice -brown/white, 1 chopped onion, 4 TBSP olive oil, 5 cups water, 2 cloves garlic, 1 8oz can tomato sauce (or small can of tomato paste), 1 chopped green bell pepper (or 1/2 cup freeze fried bell pepper mix), 1 chopped red bell pepper, 1 1/2 tsp salt, 1 lb. ground beef COOKED, 1 cup shredded cheddar cheese (of course this is a Basham recipe ;P)",
     "instructions": "Cook rice and onion in oil in a large high-side skillet over medium heat about 3 minutes. Stirring occasionally until rice is golden brown. Stir in remaining ingredients (NOT the cheddar cheese) Heat to boiling, reduce heat and cover.  Simmer for about 45 minutes stirring occasionally until rice is tender! Serve and top with cheddar cheese!"
     },
     {
-    "recipeName": "No Bake Cookies"
-    "ingredients": "2 cups sugar
-    1/2 cups milk
-    1/2 cup butter
-    1/6 tsp salt
-    3 TBSP Cocoa
-    1/4 cup peanut butter (optional)"
+    "recipeName": "No Bake Cookies",
+    "ingredients": "2 cups sugar, 1/2 cups milk, 1/2 cup butter, 1/6 tsp salt, 3 TBSP Cocoa, 1/4 cup peanut butter (optional)",
     "instructions": "Combine all above  ingredients in tall pot.  Bring to a boil on MEDIUM HIGH heat, stirring.  Once boiling turn down heat to MEDIUM LOW (#3) and continue to boil for 10 minutes stirring occasionally. Add 3 cups quick oats, 1 cup coconut (optional, if not using coconut add another 1 cup oats). Stir well... add 1 tsp vanilla. Mix. Drop onto wax paper and allow to set.  I like to use the small or medium scoop from Pampered Chef."
     },
     {
-    "recipeName": "Cinnamon Rolls with Cream Cheese Frosting"
-    "ingredients": "1/2 cup war water
-    4 1/2 tsp yeast
-    1 TBSP sugar
-    1 5.1oz box vanilla pudding mix
-    3 cups milk
-    1/2 cup butter melted
-    2 eggs beaten
-    1 tsp salt"
-    "instructions": "In a small bowl add the following and set aside warm water, yeast, sugar. In a VERY large bowl BLEND box vanilla pudding mix and milk. Mix in butter melted, eggs, and salt. Mix in yeast mixture and add 8 cups white flour 2 cups at a time. Fold flour in until a non-sticky ball forms, remove from bowl and kneed 5 more minutes. Grease the same large bowl (or butter) and place the dough in bowl.  Cover with towel. Rise for 1 hour or until double in size. Punch down. Rise another 45 min. Split the dough in half and roll 1/2 the dough on a floured surface into a large rectangle until no more than 1/4" thick.  (you will want to roll out very thin because the dough likes to move back together and become thick again) With a spatula spread soft butter to cover the dough. Sprinkle about 1/2 cup sugar over dough. Sprinkle about 1/2 cup brown sugar over dough. (brown sugar is optional). Sprinkle GOOD cinnamon to cover dough. I like a lot of cinnamon so it's up to you how much. I cover it a good layer. Cut dough into 12 strips. They should be around 1 1/2" - 2" wide. The strips a good 6" high. Roll and place 1"-2" apart in a greased/buttered cake pan or dish the same size. Set aside to rise 30 min or rolls are full and touching each other. Repeat for the second ball of dough. While second batch is rising you can bake the first batch. BAKE 350 for 15-20 min or until golden. While your first batch of rolls are cooking you can make the frosting! Blend 8 oz butter, 8 oz cream cheese, 4 cups powder sugar, 1 tsp vanilla together to make cream cheese frosting. Spread a LIGHT coating over rolls immediately after pulling them out of the oven***  the frosting will melt into the rolls and make them oh so yummy.  After rolls have cooled place desired amount of frosting over top.  ENJOY!"
+    "recipeName": "Cinnamon Rolls with Cream Cheese Frosting",
+    "ingredients": "1/2 cup war water, 4 1/2 tsp yeast, 1 TBSP sugar, 1 5.1oz box vanilla pudding mix, 3 cups milk, 1/2 cup butter melted, 2 eggs beaten, 1 tsp salt",
+    "instructions": "In a small bowl add the following and set aside warm water, yeast, sugar. In a VERY large bowl BLEND box vanilla pudding mix and milk. Mix in butter melted, eggs, and salt. Mix in yeast mixture and add 8 cups white flour 2 cups at a time. Fold flour in until a non-sticky ball forms, remove from bowl and kneed 5 more minutes. Grease the same large bowl (or butter) and place the dough in bowl.  Cover with towel. Rise for 1 hour or until double in size. Punch down. Rise another 45 min. Split the dough in half and roll 1/2 the dough on a floured surface into a large rectangle until no more than 1/4 thick.  (you will want to roll out very thin because the dough likes to move back together and become thick again) With a spatula spread soft butter to cover the dough. Sprinkle about 1/2 cup sugar over dough. Sprinkle about 1/2 cup brown sugar over dough. (brown sugar is optional). Sprinkle GOOD cinnamon to cover dough. I like a lot of cinnamon so it's up to you how much. I cover it a good layer. Cut dough into 12 strips. They should be around 1 1/2inches - 2 inches wide. The strips a good 6 inches high. Roll and place 1inch-2inches apart in a greased/buttered cake pan or dish the same size. Set aside to rise 30 min or rolls are full and touching each other. Repeat for the second ball of dough. While second batch is rising you can bake the first batch. BAKE 350 for 15-20 min or until golden. While your first batch of rolls are cooking you can make the frosting! Blend 8 oz butter, 8 oz cream cheese, 4 cups powder sugar, 1 tsp vanilla together to make cream cheese frosting. Spread a LIGHT coating over rolls immediately after pulling them out of the oven***  the frosting will melt into the rolls and make them oh so yummy.  After rolls have cooled place desired amount of frosting over top.  ENJOY!"
     }
 ]
