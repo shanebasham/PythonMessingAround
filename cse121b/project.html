@@ -29,7 +29,23 @@
     <h1>Recipe Finder</h1>
   </main>
 
+  <div id="finder">
+    <h4>Enter an ingredient!</h4>
+    <form action="/my-handling-form-page" method="post">
+        <ul>
+            <li>
+                <input type="text" id="ingredient" name="ingredient" placeholder="Ingredient">
+            </li>
+            <li class="form_button">
+                <button type="submit" onclick="searchRecipes()">Find Recipes</button>
+            </li>
+        </ul>
+    </form>
+  </div>
+
   <div id="recipes">
+    <!-- <h2 id="printError"><br>No recipes found with that ingredient! Please enter a different ingredient!<br>
+    </h2> -->
   </div>
 
   <footer>

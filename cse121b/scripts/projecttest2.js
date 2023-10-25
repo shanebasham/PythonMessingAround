@@ -1,9 +1,8 @@
-
-/* Declare and initialize global variables */
+// Declare and initialize global variables
 const recipesElement = document.querySelector('#recipes');
 let recipeList = [];
 
-/* async displayRecipes Function */
+// async displayRecipes Function
 const displayRecipes = (recipes) => {
     recipes.forEach((recipe) => { 
         let article = document.createElement('article');
@@ -19,39 +18,45 @@ const displayRecipes = (recipes) => {
         recipesElement.appendChild(article)});
 };
 
-/* async getRecipes Function using fetch()*/
+// async getRecipes Function using fetch()
 const getRecipes = async () => {
     const response = await fetch("https://shanebasham.github.io/PythonMessingAround/cse121b/scripts/recipes.json");
     recipeList = await response.json();
     displayRecipes(recipeList);
 };
 
-// /* reset Function */
-// const reset = () => {
-//     recipesElement.innerHTML = '';
-// };
+// get the finder div element so we can do something with it
+const finderElement = document.getElementById('finder');
+// get the form so we can read what was entered in it
+const formElement = document.forms[0];
+// add listener to wait for a submission of form to run the code
+formElement.addEventListener('submit', function(e) {
+    // stop form from doing the default action.
+    e.preventDefault();
+    // set the contents of finder element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
+    getRecipes();
+});
 
-// /* sortBy Function */
-// const sortBy = (recipes) => {
+// reset Function
+const reset = () => {
+    recipesElement.innerHTML = '';
+};
+
+// // if recipeList contains user input ingredient append to innerhtml
+// const searchRecipes = (recipes) => {
 //     reset();
-//     switch (document.querySelector('#sortBy').value) {
-//         case 'utah':
-//             displayRecipes(recipes.filter(temple => temple.location.includes('Utah')));
-//             break;
-//         case 'notutah':
-//             displayRecipes(recipes.filter(temple => !temple.location.includes('Utah')));
-//             break;
-//         case 'older':
-//             displayRecipes(recipes.filter(temple => new Date(temple.dedicatedDate) < new Date(1950, 0, 1)));
-//             break;
-//         case 'all':
+//     var ingredient = document.getElementById('ingredient').value;
+//     let article = document.createElement('article');
+//     switch (document.querySelector('#ingredient').value) {
+//         case (recipeList.includes(ingredient)):
 //             displayRecipes(recipes);
 //             break;
+//         default:
+//             printError()
 //     };
-// }
+// };
 
-getRecipes();
-
-
-// /* Event Listener */
-// document.querySelector('#sortBy').addEventListener('change', () => { sortBy(recipeList) });
+// function printError(ingredient) {
+//     document.getElementById('printError').innerHTML = ingredient;
+//     console.log(ingredient); 
+// };
