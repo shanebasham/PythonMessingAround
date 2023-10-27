@@ -84,6 +84,19 @@ main {
     justify-content: center;
 }
 
+li {
+    list-style: none;
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+#finder {
+    align-items: center;
+    text-align: center;
+}
+
 picture {
     margin: 0 auto;
 }
