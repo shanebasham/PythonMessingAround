@@ -36,7 +36,7 @@
                   <input type="text" id="ingredient" name="ingredient" placeholder="Ingredient">
               </li>
               <li class="form_button">
-                  <button type="submit" onclick="searchRecipes()">Find Recipes</button>
+                  <button type="submit" id="button">Find Recipes</button>
               </li>
           </ul>
       </form>
@@ -45,19 +45,16 @@
 
 
   <div id="recipes">
-    <!-- <h2 id="printError"><br>No recipes found with that ingredient! Please enter a different ingredient!<br>
-    </h2> -->
   </div>
 
   <footer>
     &copy;<span id="year"></span> | Project | CSE 121b
   </footer>
 
-  <script src="scripts/projecttest2.js"></script>
+  <script src="scripts/project.js" type="module"></script>
   <script>
     document.getElementById("year").innerHTML = new Date().getFullYear();
   </script>
-  <script src="scripts/projecttest2.js"></script>
 
 </body>
 
